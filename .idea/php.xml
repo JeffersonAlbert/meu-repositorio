@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LaravelPint">
+    <laravel_pint_settings>
+      <LaravelPintConfiguration tool_path="$PROJECT_DIR$/faturamento/vendor/bin/pint" />
+    </laravel_pint_settings>
+  </component>
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpCSFixer">
+    <phpcsfixer_settings>
+      <PhpCSFixerConfiguration tool_path="$PROJECT_DIR$/faturamento/vendor/bin/php-cs-fixer" />
+    </phpcsfixer_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/faturamento/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/faturamento/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/faturamento/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/nunomaduro/phpinsights" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/react/child-process" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/php-parallel-lint/php-parallel-lint" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/spatie/error-solutions" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/spatie/pdf-to-image" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/composer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/aws/aws-crt-php" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/inertiajs/inertia-laravel" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/clue/ndjson-react" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/cmgmyr/phploc" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/twbs/bootstrap-icons" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/league/container" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/league/config" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/league/flysystem-aws-s3-v3" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laravel/octane" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/faturamento/vendor/livewire/livewire" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/faturamento/phpunit.xml" custom_loader_path="$PROJECT_DIR$/faturamento/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

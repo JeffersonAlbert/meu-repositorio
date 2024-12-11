@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.776953" y="0.799414" width="23.2" height="23.2" rx="11.6" stroke-width="0.8" style="stroke: rgb(13, 163, 88);"/>
+  <path d="M17.2916 15.9088H7.47852V8.89941H9.124H17.2916V15.9088Z" stroke-width="0.5" stroke-miterlimit="10" style="stroke: rgb(13, 163, 88);"/>
+  <path d="M7.47852 8.89941L12.3851 12.4041L17.2916 8.89941" stroke-width="0.5" stroke-miterlimit="10" style="stroke: rgb(13, 163, 88);"/>
+  <path d="M10.7795 11.2568L7.47852 15.9085" stroke-width="0.5" stroke-miterlimit="10" style="stroke: rgb(13, 163, 88);"/>
+  <path d="M13.9902 11.2568L17.2924 15.86" stroke-width="0.5" stroke-miterlimit="10" style="stroke: rgb(13, 163, 88);"/>
+</svg>

@@ -1,0 +1,41 @@
+name: "Deploy para producao"
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build_deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Clone do codigo" 
+        uses: actions/checkout@v4
+
+      - name: "Copiando arquivos para producao"
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: "3.143.184.174"
+          username: "admin"
+          key: ${{ secrets.SSH_PRIVATE_KEY_PROD }}
+          source: "."
+          target: "~/number"
+
+      - name: "Build aplicacao"
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: "3.143.184.174"
+          username: "admin"
+          key: ${{ secrets.SSH_PRIVATE_KEY_PROD }}
+          script: |
+            cd ~/number
+            docker compose exec faturamento composer install --no-progress -a
+            docker compose exec faturamento php artisan migrate
+            docker compose exec faturamento php artisan optimize
+            docker compose exec faturamento bash -c "minify public/css/sb-admin-2.css > public/css/sb-admin-2.min.css" 
+            mkdir -p faturamento/storage/framework/cache/laravel-excel
+            docker compose exec faturamento chmod 777 -R storage/framework/cache 
+            docker compose exec faturamento chmod 777 -R storage/framework/sessions 
+            docker compose exec faturamento chmod 777 -R storage/framework/views        
+

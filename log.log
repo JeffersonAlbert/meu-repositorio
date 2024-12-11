@@ -1,0 +1,16 @@
+× docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: failed (Result: exit-code) since Mon 2024-12-09 17:23:57 -03; 1min 57s ago
+TriggeredBy: × docker.socket
+       Docs: https://docs.docker.com
+    Process: 103279 ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock (code=exited, status=1/FAILURE)
+   Main PID: 103279 (code=exited, status=1/FAILURE)
+
+dez 09 17:23:57 jefferson-desktop systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+dez 09 17:23:57 jefferson-desktop systemd[1]: Stopped Docker Application Container Engine.
+dez 09 17:23:57 jefferson-desktop systemd[1]: docker.service: Start request repeated too quickly.
+dez 09 17:23:57 jefferson-desktop systemd[1]: docker.service: Failed with result 'exit-code'.
+dez 09 17:23:57 jefferson-desktop systemd[1]: Failed to start Docker Application Container Engine.
+dez 09 17:24:01 jefferson-desktop systemd[1]: docker.service: Start request repeated too quickly.
+dez 09 17:24:01 jefferson-desktop systemd[1]: docker.service: Failed with result 'exit-code'.
+dez 09 17:24:01 jefferson-desktop systemd[1]: Failed to start Docker Application Container Engine.

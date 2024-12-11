@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+  faturamento:
+    environment:
+      - TZ=America/Sao_Paulo
+    build:
+      args:
+        user: jefferson
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    image: faturamento
+    container_name: faturamento
+    restart: unless-stopped
+    working_dir: /var/www/faturamento
+    volumes:
+      - ./:/var/www
+    ports:
+      - 9002:9000
+      #- 9003:9003
+      - 8000:8000
+      - 5173:5173
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-f
+    restart: unless-stopped
+    ports:
+      - 8001:80
+    volumes:
+      - ./faturamento:/var/www/faturamento
+      - ./conf/nginx:/etc/nginx/conf.d
