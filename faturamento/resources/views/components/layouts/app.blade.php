@@ -16,6 +16,10 @@
             <link href='{{ asset("css/sb-admin-2.css") }}?v={{ filemtime(public_path('css/sb-admin-2.css')) }}' rel="stylesheet">
         @endenv
         <link rel="stylesheet" href="{{ asset('css/bootstrap.icons.css') }}?{{ filemtime(public_path('css/bootstrap.icons.css')) }}">
+    
+        <!-- Incluir o Livewire -->
+        @livewireStyles
+    
     </head>
     <body id="page-top" @class(["sidebar-toogled"])>
         <div id="wrapper">
@@ -435,6 +439,19 @@
         <a class="scroll-to-top rounded" href="#page-top">
             <i class="fas fa-angle-up"></i>
         </a>
+
+        <!-- Adicionar o modal de logout Livewire -->
+    @livewire('logout-modal')
+
+
+            <!-- Scripts do Livewire e Bootstrap -->
+        @livewireScripts
+
+            <!-- Scripts do Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+
     </body>
     <footer>
         @stack('scripts')

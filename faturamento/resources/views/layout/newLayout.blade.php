@@ -1057,7 +1057,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Pronto para sair?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Pronto para sair? TESTE</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close" title="Fechar">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -1109,6 +1109,7 @@
     @include('layout.alerts')
     @include('layout.jsFunctions')
     @include('layout.switch-dt-wt')
+    
 </body>
 <footer>
     @stack('scripts')
