@@ -8,7 +8,7 @@
     <div @class(['row'])>
         <div @class(['col-12'])>
             <div @class(['titulo-grid-number', 'font-regular-wt'])>
-                <h3>Solicitação de pagamentos JEFF º|º</h3>
+                <h3>Solicitação de pagamentos</h3>
             </div>
         </div>
     </div>
