@@ -10011,7 +10011,7 @@ a:focus {
 }
 
 #wrapper #content-wrapper #content {
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .container,

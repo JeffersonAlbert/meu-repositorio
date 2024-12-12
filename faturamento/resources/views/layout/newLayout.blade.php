@@ -632,10 +632,10 @@
                     <!-- seu codigo vai comecar aqui -->
                     <div id='informativo' class="row" >
                         <div class="col-9">
-                            <div class="card card-info">
+                            <!-- div class="card card-info">
                                <button id="closeInfo" class="close-button" title="Fechar"><span class="close-text">x</span></button>
 
-                                <div class="row">
+                                 <div class="row">
                                     <div class="col-5">
                                         <div class="row m-3">
                                             <span class="font-regular-wt titulo-novidade ml-3">Novidade</span>
@@ -679,11 +679,11 @@
                                             <button class="mt-3 ml-3 mb-3 btn btn-sm btn-success btn-success-number">Saiba mais</button>
                                         </div>
                                         <div class="mb-3"></div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="row">
-                                            <img class="mt-3 mb-3 img-info-graficos" src="{{ url('/img/static/icons/grafico.png') }}" alt="Descrição da Imagem">
-                                        </div>
+                                    </div> -->
+                                     <div class="col-6">
+                                       <!-- <div class="row"> -->
+                                           <!-- <img class="mt-3 mb-3 img-info-graficos" src="{{ url('/img/static/icons/grafico.png') }}" alt="Descrição da Imagem"> -->
+                                       <!-- </div> -->
                                     </div>
                                 </div>
                             </div>
