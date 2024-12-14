@@ -176,3 +176,5 @@ Route::get('/image/{any}', [R2Controller::class, 'fetch'])->where('any', '.*')->
 Route::get('/image/base64/{any}', [R2Controller::class, 'fetchBase64'])->where('any', '.*')->name('r2.img.base64');
 Route::get('/teste/{id?}', [PdfController::class, 'desktopMiniatures'])->name('pdf.miniatures');
 Route::get('/pdf/{pdfName}', [PdfController::class, 'viewerPdf'])->where('pdfName', '.*')->name('pdf.viewer');
+
+Route::get('testr2', [R2Controller::class, 'teste'])->name('testr2');

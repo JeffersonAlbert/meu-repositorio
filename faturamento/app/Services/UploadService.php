@@ -23,7 +23,8 @@ class UploadService
                 file_get_contents($file->getRealPath())
             );
         }
-        return $filesArray;
+
+            return $filesArray;
     }
 
     public function mergeFiles($filesBd, $filesArray)

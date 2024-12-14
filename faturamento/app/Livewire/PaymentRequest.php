@@ -60,6 +60,8 @@ class PaymentRequest extends AccountsPayable
 
     public function render()
     {
+      //  dd('aqui'); 
+
         if($this->period == null){
             $this->setPeriod();
         }
