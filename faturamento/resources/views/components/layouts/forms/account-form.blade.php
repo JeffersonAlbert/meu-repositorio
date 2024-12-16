@@ -141,10 +141,14 @@
                         <label @class(['label-number']) for="dropdownCentroCustoButton">Centro de custo</label>
                         @include('components.layouts.forms.dropdowns.centers-cost-dropdown')
                     </div>
+
+                    {{--
                     <div @class(['col'])>
-                        <label @class(['label-number']) for="dropdownApportionmentButton">Rateio</label>
+                        <label @class(['label-number']) for="dropdownApportionmentButton">Rateio RERAR</label>
                         @include('components.layouts.forms.dropdowns.apportionment')
                     </div>
+                    --}}
+
                 </div>
                 {{-- <div @class(['row', 'mt-1'])>
                         <div class="col-6">

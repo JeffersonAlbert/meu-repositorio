@@ -4023,8 +4023,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: #4e73df;
-    background-color: #4e73df;
+    border-color: #1cc88a;
+    background-color: #1cc88a;
 }
 
 .custom-control-input:focus~.custom-control-label::before {
@@ -5834,7 +5834,7 @@ a.badge-dark.focus {
     overflow: hidden;
     line-height: 0;
     font-size: 0.75rem;
-    background-color: #eaecf4;
+    background-color: #203129;
     border-radius: 0.35rem;
 }
 
@@ -7199,8 +7199,8 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-    background: linear-gradient(127deg, #7de1ac 28.58%, rgba(125, 225, 172, 00.0) 98.77%);
-}
+    background-color: #e74a3b !important;
+  }
 
 a.bg-danger:hover,
 a.bg-danger:focus,
@@ -7232,7 +7232,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-    background-color: #022d20 !important;
+    background-color: #203129 !important;
 }
 
 .bg-transparent {
