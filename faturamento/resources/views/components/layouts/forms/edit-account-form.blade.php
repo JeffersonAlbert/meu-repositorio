@@ -140,7 +140,7 @@
                 </div>
                 <div @class(['row', 'mt-1'])>
                     <div @class(['col'])>
-                        <label @class(['label-number']) for="observacao">Observação888</label>
+                        <label @class(['label-number']) for="observacao">Observação</label>
                         <textarea wire:model="observation" name="observacao" class="input-login form-control" rows="3" placeholder="">{{ (isset($processo)) ? $processo->observacao : null }}</textarea>
                     </div>
                 </div>
