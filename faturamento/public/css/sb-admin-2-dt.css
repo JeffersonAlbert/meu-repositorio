@@ -5063,7 +5063,7 @@ input[type="button"].btn-block {
     background-color: #27382fcc;
     background-clip: border-box;
     /*border: 1px solid #1b4133;*/
-    border-radius: 0.35rem;
+    border-radius: 0.00rem;
     /*text-align: center;*/
     justify-content: center;
 }
