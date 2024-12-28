@@ -1,4 +1,15 @@
 <div>
+
+{{-- Stop trying to control. --}}
+
+    @include('layout.switch-dt-wt') <!-- Inclui o botão de troca de tema -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeDarkModeToggle);
+        document.addEventListener('livewire:load', initializeDarkModeToggle);
+        document.addEventListener('livewire:update', initializeDarkModeToggle);
+    </script>
+
     <div id="loader" class="loader" wire:loading
          wire:loading wire:target="searchSupplierCpfCnpj, saveSupplier, saveAccount, updateAccount,
          setPeriod, report, setType, setOnlyOpened, searchBy">
@@ -164,9 +175,12 @@
     </div>
     <div @class(['row', 'mt-3'])>
         <div @class(['col'])>
+
+            <!-- Exibir contas em aberto -->
+
             <div class="custom-control custom-switch">
                 <input wire:change="setOnlyOpened" type="checkbox" class="custom-control-input custom-checkbox" id="switch-opened" value="totalOverdue">
-                <label class="custom-control-label" for="switch-opened">Exibir contas em aberto</label>
+                <label class="custom-control-label" for="switch-opened">EExibir contas em aberto</label>
             </div>
         </div>
     </div>
